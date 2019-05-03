@@ -8,6 +8,7 @@ import java.util.ArrayList;
  */
 public interface DatiUtente {
 
+	public void modificaPassword(String utente, String password); 
     
     public void modificaLivello(String utente, String livello);    
 
